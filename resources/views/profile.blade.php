@@ -13,7 +13,7 @@
   <meta name="author" content="" />
   <link rel="shortcut icon" href="images/favicon.png" type="">
 
-  <title> Care+ Login </title>
+  <title> Care +</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -43,9 +43,13 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="/">
             <span>
-              CARE+
+              CARE +
             </span>
           </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class=""> </span>
@@ -53,11 +57,13 @@
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link" href="/">Home </a>
+                <a class="nav-link" href="/home">Home </a>
               </li>
-              
               <li class="nav-item">
-                <a class="nav-link" href="about"> About</a>
+                <a class="nav-link" href="profile">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about"> About <span class="sr-only">(current)</span> </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="departments">Departments</a>
@@ -65,11 +71,8 @@
               <li class="nav-item">
                 <a class="nav-link" href="contact">Contact Us</a>
               </li>
-               <li class="nav-item">
-                <a class="nav-link" href="signup">SignUp</a>
                  <li class="nav-item">
-                <a class="nav-link" href="login">Login <span class="sr-only">(current)</span></a>
-              </li>
+                <a class="nav-link" href="/">Log Out </a>
               </li>
             </ul>
           </div>
@@ -79,46 +82,38 @@
     <!-- end header section -->
   </div>
 
-  <!-- contact section -->
-  <section class="contact_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Login
-        </h2>
-      </div>
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container  ">
       <div class="row">
-        <div class="col-md-6">
-          <div class="form_container contact-form">
-            <form action="">
-              <div class="form-row">
-                <div class="col-lg-6">
-                  <div>
-                <input type="email" placeholder="Email or Username" required/>
-              </div>
-              <div>
-                <input type="password" placeholder="Password" required/>
-              </div>
-
-              <div class="btn_box">
-              <a href="profile">
-                <button>
-                  LOGIN
-                </button>
-              </div>
-            </form>
-            <br>
-            <span>Forgot <a href="#">Password?</a> </span>or<br>
-            <span> Create a  <a href="signup">new account!</a></span>
-
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="images/" alt="">
           </div>
         </div>
-
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                Profile
+              </h2>
+            </div>
+            <p>
+             
+            </p>
+            <a href="">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-  <!-- end contact section -->
 
-  <!-- footer section -->
+  <!-- end about section -->
+
+<!-- footer section -->
   <footer class="footer_section">
     <div class="container">
       <div class="row">
@@ -177,11 +172,9 @@
               Links
             </h4>
             <div class="footer_links">
-              
               <a class="" href="/">
                 Home
               </a>
-              
               <a class="" href="about">
                 About
               </a>
